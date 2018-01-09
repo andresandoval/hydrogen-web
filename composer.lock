@@ -1,0 +1,93 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fbb87f6134c867caa265b8298355f2c8",
+    "packages": [
+        {
+            "name": "andresandoval/helium",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andresandoval/helium.git",
+                "reference": "2e47553f3b40d3e1a551b75ebc5e0333b03c66d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andresandoval/helium/zipball/2e47553f3b40d3e1a551b75ebc5e0333b03c66d0",
+                "reference": "2e47553f3b40d3e1a551b75ebc5e0333b03c66d0",
+                "shasum": ""
+            },
+            "require": {
+                "andresandoval/lithium": "1.0.0",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Helium\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andres",
+                    "email": "andresandoval992@gmail.com"
+                }
+            ],
+            "description": "Jackson Project inspired library for Json-mapping in PHP",
+            "time": "2017-12-10T21:21:23+00:00"
+        },
+        {
+            "name": "andresandoval/lithium",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andresandoval/lithium.git",
+                "reference": "12a2e41bf7e703bed39353f7ec3ca36fe43f9dac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andresandoval/lithium/zipball/12a2e41bf7e703bed39353f7ec3ca36fe43f9dac",
+                "reference": "12a2e41bf7e703bed39353f7ec3ca36fe43f9dac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lithium\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andres",
+                    "email": "andresandoval992@gmail.com"
+                }
+            ],
+            "description": "Php library for managing metadata in objects and functions annotations",
+            "time": "2017-12-07T15:39:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": []
+}

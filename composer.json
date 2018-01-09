@@ -1,0 +1,28 @@
+{
+  "name": "andresandoval/hydrogen-web",
+  "description": "Libreria de soporte para mapeo de rutas en modelo REST o MVC",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andres",
+      "email": "andresandoval992@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1.0",
+    "andresandoval/helium": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hydrogen\\Web\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hydrogen\\Web\\Tests\\": "tests/src/"
+    }
+  }
+}
