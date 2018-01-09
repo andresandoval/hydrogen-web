@@ -1,0 +1,14 @@
+#test 1
+POST {{host}}/foo/get/First name/items?lastName=Foo
+Content-Type: application/json
+Cookie: XDEBUG_SESSION=PHPSTORM; path=/
+
+{
+    "name" : "Name",
+    "lastName": "lastName",
+    "other": {
+        "name" : "other Name",
+        "lastName": "other lastName"
+    }
+}
+###
